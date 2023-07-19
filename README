@@ -1,10 +1,7 @@
--- REQUIREMENTS
-
-node.js
-node package manager
-typescript
+OSUITE's primary goal is to provide users with automated social media OSINT.
+OSUITE assumes you are to BYOT (bring your own token).
+When using the installation script provided below you will be guided through the process of gaining API tokens.
 
 -- COPY AND PASTE THIS TO INSTALL
 
 Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/rosidae/osuite/main/extra/install.ps1'))
-
