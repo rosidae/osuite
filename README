@@ -1,0 +1,10 @@
+-- REQUIREMENTS
+
+node.js
+node package manager
+typescript
+
+-- COPY AND PASTE THIS TO INSTALL
+
+Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/rosidae/osuite/main/extra/install.ps1'))
+
