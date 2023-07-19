@@ -5,11 +5,11 @@ if ($confirmation -eq "N" -or $confirmation -eq "n") {
   Write-Host "Installation cancelled."
   exit
 }
-
-Out-Null
+Clear-Host
 
 # Clone repo
 git clone https://github.com/rosidae/osuite.git
+Clear-Host
 Set-Location osuite
 
 # Install node packages
