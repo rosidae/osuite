@@ -16,4 +16,4 @@ Set-Location osuite
 npm install
 
 # Run the env helper script.
-node .\extra\env_helper.ts
+ts-node-esm .\extra\env_helper.ts
